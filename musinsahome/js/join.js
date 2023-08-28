@@ -1,20 +1,4 @@
-// $('#join .join-start button').on('click',function(){
-//   let flag=true
-//   $('#join form input').each(function(){
-    
-//     if($(this).val()==""){
-//       flag=false;
-//     }
-//   })
-//   if(flag){
-//     alert("무신사에 오신것을 환영합니다.")
-//     console.log("두번체크")
-//   }
-//   else{
-//     alert("모든값을 입력하세요")
-//   }
 
-// })
 let randomNum = 0;
 let doublecheck=false;
 let userlist = JSON.parse(localStorage.getItem("users"))
